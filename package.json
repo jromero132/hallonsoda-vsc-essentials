@@ -1,0 +1,38 @@
+{
+  "name": "hallonsoda-vsc-essentials",
+  "displayName": "Hallonsoda VSCode Essentials",
+  "description": "These are the essentials Visual Studio Code extensions for team VCC Hallonsoda.",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#ffaaaa"
+  },
+  "version": "0.0.1",
+  "publisher": "jromero132",
+  "sponsor": {
+    "url": "https://buymeacoffee.com/jromero132"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jromero132/hallonsoda-vsc-essentials.git"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "foxundermoon.shell-format",
+    "timonwong.shellcheck",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "redhat.vscode-yaml",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+    }
+  }
+}
